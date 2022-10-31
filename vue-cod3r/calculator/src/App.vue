@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Calculator from './main/Calculator.vue'
+import Calculator from './main/Calculator'
 export default {
   components: {
     Calculator
@@ -37,6 +37,6 @@ body {
     text-align: center;
 
     color: #fff;
-    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+    background: linear-gradient(135deg, rgb(83, 105, 118), rgb(41, 46, 73));
 }
 </style>
