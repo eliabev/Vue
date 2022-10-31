@@ -9,10 +9,11 @@
 </template>
 
 <script>
-export default { 
-    name: "Navbar",
-    props: ["logo", "alt"]
-}
+export default {
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: 'Navbar',
+  props: ['logo', 'alt'],
+};
 </script>
 
 <style scoped>
